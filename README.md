@@ -30,4 +30,4 @@ export const App = () => (
     circleInActiveColor={'#000000'}
   />
 )
-``
+```
