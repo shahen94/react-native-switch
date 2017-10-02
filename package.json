@@ -1,6 +1,6 @@
 {
   "name": "react-native-switch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Customisable switch component for RN",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "author": "Shahen Hovhannisyan <shahen.hovhannisyan.94@gmail.com>",
   "peerDependencies": {
     "react-native": ">=0.29"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
