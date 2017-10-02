@@ -24,5 +24,8 @@
   "author": "Shahen Hovhannisyan <shahen.hovhannisyan.94@gmail.com>",
   "peerDependencies": {
     "react-native": ">=0.29"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
