@@ -24,6 +24,9 @@ export const App = () => (
     disabled={false}
     activeText={'On'}
     inActiveText={'Off'}
+    circleSize={30}
+    barHeight={1}
+    circleBorderWidth={3}
     backgroundActive={'green'}
     backgroundInactive={'gray'}
     circleActiveColor={'#30a566'}
