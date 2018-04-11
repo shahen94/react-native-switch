@@ -32,14 +32,14 @@ export const App = () => (
     circleActiveColor={'#30a566'}
     circleInActiveColor={'#000000'}
     changeValueImmediately={true}
-    renderInsideCircle={() => <CustomComponent />}
-    changeValueImmediately: true // if rendering inside circle, change state immediately or wait for animation to complete
-    innerCircleStyle={{ alignItems: "center", justifyContent: "center" }} // style for inner animated circle
+    renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
+    changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
+    innerCircleStyle={{ alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
     outerCircleStyle={{}} // style for outer animated circle
     renderActiveText={false}
     renderInActiveText={false}
-    switchLeftPx={1.1} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
-    switchRightPx={1.} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
+    switchLeftPx={1.3} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
+    switchRightPx={1.3} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
     switchWidthMultiplier={2.75} // multipled by the `circleSize` prop to calculate total width of the Switch
   />
 )
