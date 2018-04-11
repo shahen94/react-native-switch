@@ -31,6 +31,9 @@ export const App = () => (
     backgroundInactive={'gray'}
     circleActiveColor={'#30a566'}
     circleInActiveColor={'#000000'}
+    changeValueImmediately={true}
+    renderInsideButton={() => <CustomComponent />}
+    buttonStyle={{}}
   />
 )
 ```
