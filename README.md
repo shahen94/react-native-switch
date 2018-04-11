@@ -32,8 +32,12 @@ export const App = () => (
     circleActiveColor={'#30a566'}
     circleInActiveColor={'#000000'}
     changeValueImmediately={true}
-    renderInsideButton={() => <CustomComponent />}
-    buttonStyle={{}}
+    renderInsideCircle={() => <CustomComponent />}
+    changeValueImmediately: true // if rendering inside circle, change state immediately or wait for animation to complete
+    innerCircleStyle={{ alignItems: "center", justifyContent: "center" }} // style for inner animated circle
+    outerCircleStyle={{}} // style for outer animated circle
+    renderActiveText={false}
+    renderInActiveText={false}
   />
 )
 ```
