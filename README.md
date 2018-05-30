@@ -31,7 +31,6 @@ export const App = () => (
     backgroundInactive={'gray'}
     circleActiveColor={'#30a566'}
     circleInActiveColor={'#000000'}
-    changeValueImmediately={true}
     renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
     changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
     innerCircleStyle={{ alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
