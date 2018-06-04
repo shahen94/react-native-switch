@@ -88,7 +88,7 @@ export class Switch extends Component {
     if (nextProps.value === this.props.value) {
       return;
     }
-    if (disabled && nextProps.disabled) {
+    if (disabled) {
       return;
     }
 
