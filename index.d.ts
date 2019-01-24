@@ -28,6 +28,7 @@ declare type SwitchProps = {
   switchLeftPx?: number;
   switchRightPx?: number;
   switchWidthMultiplier?: number;
+  switchBorderRadius?: number;
 };
 
 declare class Switch extends Component<SwitchProps> {}
