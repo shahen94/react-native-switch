@@ -15,7 +15,8 @@
     "ios",
     "mobile",
     "switch",
-    "customisable"
+    "customisable",
+    "react-native-web"
   ],
   "license": "MIT",
   "repository": {
