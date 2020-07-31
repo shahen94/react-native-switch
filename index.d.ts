@@ -30,6 +30,7 @@ declare module 'react-native-switch' {
     switchRightPx?: number;
     switchWidthMultiplier?: number;
     switchBorderRadius?: number;
+    horizontal?: boolean;
   }
 
   export class Switch extends Component<SwitchProps> {}
