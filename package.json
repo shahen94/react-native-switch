@@ -1,6 +1,6 @@
 {
   "name": "react-native-switch",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Customisable switch component for RN",
   "main": "index.js",
   "types": "index.d.ts",
